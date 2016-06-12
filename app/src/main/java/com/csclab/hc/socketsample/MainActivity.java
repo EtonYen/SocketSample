@@ -157,6 +157,7 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
     class thread extends Thread{
         public void run(){
             try{
+                int a;
                 System.out.println("Client: Waiting to connect...");
                 int serverPort = 2000;
 
